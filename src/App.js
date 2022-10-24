@@ -6,6 +6,7 @@ import UseStae from './components/UseStae';
 import Usefect from './components/Usefect';
 import Ref from './components/Ref';
 import Comp1 from './components/context/Comp1';
+import Reduc from './components/Reduc';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route path="useeffect" element={<Usefect />}></Route>
           <Route path="useref" element={<Ref />}></Route>
           <Route path="usecon" element={<Comp1 />}></Route>
+          <Route path="usered" element={<Reduc />}></Route>
+
         </Routes>
       </div>
     </div>

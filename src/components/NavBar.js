@@ -9,17 +9,20 @@ const NavBar = () => {
           <Link to="/" className="navbar-brand">
             Hooks
           </Link>
-          <Link to="/" className="navbar">
+          <Link to="/" className="navbar-brand">
             Usestate
           </Link>
-          <Link to="/useeffect" className="navbar">
+          <Link to="/useeffect" className="navbar-brand">
             UseEffect
           </Link>
-          <Link to="/useref" className="navbar">
+          <Link to="/useref" className="navbar-brand">
             UseRef
           </Link>
-          <Link to="/usecon" className="navbar">
+          <Link to="/usecon" className="navbar-brand">
             UseContext
+          </Link>
+          <Link to="/usered" className="navbar-brand">
+            UseReducer
           </Link>
         </div>
       </nav>
